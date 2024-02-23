@@ -1,43 +1,26 @@
 {
   "project_info": {
-    "project_number": "369498954311",
-    "project_id": "chat-15d57",
-    "storage_bucket": "chat-15d57.appspot.com"
+    "project_number": "1032917126992",
+    "project_id": "people-connect-8e753",
+    "storage_bucket": "people-connect-8e753.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:369498954311:android:96527f7afa76552559ef62",
+        "mobilesdk_app_id": "1:1032917126992:android:9408c34e1430d47b27a655",
         "android_client_info": {
           "package_name": "com.example.chat"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "369498954311-gan9khm2hl4eq245e43kous4oq7p7657.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCdJ3o4YwpTUyF4RqOxhbK1B1qv5GynaSE"
+          "current_key": "AIzaSyANOEK5-e9dlesblIYRS30vqLhdZkVDqPY"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "369498954311-eo8tqrf57mtd1iam7ogjusg5lti71k37.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "369498954311-0cgr0bs9k8h2o0q5u2jq3h8vej86i2f9.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.chat"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

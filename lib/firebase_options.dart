@@ -17,7 +17,10 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -25,7 +28,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -43,41 +49,20 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAKmGvId90yuL4bZhh2WDqi6und4fQo7CM',
-    appId: '1:369498954311:web:b0041a3f8efd34b259ef62',
-    messagingSenderId: '369498954311',
-    projectId: 'chat-15d57',
-    authDomain: 'chat-15d57.firebaseapp.com',
-    storageBucket: 'chat-15d57.appspot.com',
-    measurementId: 'G-V7PX1RBC36',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCdJ3o4YwpTUyF4RqOxhbK1B1qv5GynaSE',
-    appId: '1:369498954311:android:96527f7afa76552559ef62',
-    messagingSenderId: '369498954311',
-    projectId: 'chat-15d57',
-    storageBucket: 'chat-15d57.appspot.com',
+    apiKey: 'AIzaSyANOEK5-e9dlesblIYRS30vqLhdZkVDqPY',
+    appId: '1:1032917126992:android:9408c34e1430d47b27a655',
+    messagingSenderId: '1032917126992',
+    projectId: 'people-connect-8e753',
+    storageBucket: 'people-connect-8e753.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAFRXaC1h5T4jt0Qg4vTxhcPgN1RjThCCQ',
-    appId: '1:369498954311:ios:2da26fa64203b73059ef62',
-    messagingSenderId: '369498954311',
-    projectId: 'chat-15d57',
-    storageBucket: 'chat-15d57.appspot.com',
-    iosClientId: '369498954311-0cgr0bs9k8h2o0q5u2jq3h8vej86i2f9.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBYliSV_O5k6utte6Ve8b-WLUVXbrq4yTE',
+    appId: '1:1032917126992:ios:f50f7f082345393c27a655',
+    messagingSenderId: '1032917126992',
+    projectId: 'people-connect-8e753',
+    storageBucket: 'people-connect-8e753.appspot.com',
     iosBundleId: 'com.example.chat',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAFRXaC1h5T4jt0Qg4vTxhcPgN1RjThCCQ',
-    appId: '1:369498954311:ios:b6825788b07b4cf759ef62',
-    messagingSenderId: '369498954311',
-    projectId: 'chat-15d57',
-    storageBucket: 'chat-15d57.appspot.com',
-    iosClientId: '369498954311-rvdfebadk2mdrc04lnelv441fro2lhpr.apps.googleusercontent.com',
-    iosBundleId: 'com.example.chat.RunnerTests',
   );
 }
