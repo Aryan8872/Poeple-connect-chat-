@@ -1,9 +1,9 @@
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Domain/Models/Room/Room.dart';
-import 'package:chat/Domain/UseCase/AddUserToRoomByRoomIdUseCase.dart';
-import 'package:chat/Domain/UseCase/GetUserRoomsUseCase.dart';
-import 'package:chat/Domain/UseCase/SignOutUseCase.dart';
-import 'package:chat/Domain/UseCase/GetPublicRoomsUseCase.dart';
+import 'package:chat/ViewModels/Room/Room.dart';
+import 'package:chat/Services/AddUserToRoomByRoomIdUseCase.dart';
+import 'package:chat/Services/GetUserRoomsUseCase.dart';
+import 'package:chat/Services/SignOutUseCase.dart';
+import 'package:chat/Services/GetPublicRoomsUseCase.dart';
 import 'package:chat/Presentation/DI/di.dart';
 import 'package:chat/Core/Base/BaseState.dart';
 import 'package:chat/Presentation/UI/Chat/ChatView.dart';

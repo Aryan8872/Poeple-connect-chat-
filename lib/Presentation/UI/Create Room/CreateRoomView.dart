@@ -1,8 +1,8 @@
 import 'package:chat/Core/Base/BaseState.dart';
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Domain/UseCase/AddRoomUseCase.dart';
+import 'package:chat/Services/AddRoomUseCase.dart';
 import 'package:chat/Presentation/DI/di.dart';
-import 'package:chat/Presentation/Models/RoomCategory.dart';
+import 'package:chat/ViewModels/Models/RoomCategory.dart';
 import 'package:chat/Presentation/Models/RoomType.dart';
 import 'package:chat/Presentation/UI/Create%20Room/CreateRoomNavigator.dart';
 import 'package:chat/Presentation/UI/Create%20Room/CreateRoomViewModel.dart';

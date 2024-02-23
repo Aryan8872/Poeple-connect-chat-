@@ -1,4 +1,4 @@
-import 'package:chat/Data/Models/Message/MessageDTO.dart';
+import 'package:chat/Models/Message/MessageDTO.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class MessagesDatabase {

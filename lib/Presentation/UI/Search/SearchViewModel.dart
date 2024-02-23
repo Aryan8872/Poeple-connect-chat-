@@ -1,8 +1,8 @@
 import 'package:chat/Core/Base/BaseViewModel.dart';
-import 'package:chat/Domain/Exception/FirebaseFireStoreDatabaseTimeoutException.dart';
-import 'package:chat/Domain/Exception/FirebaseFirestoreDatabaseException.dart';
-import 'package:chat/Domain/Models/Room/Room.dart';
-import 'package:chat/Domain/UseCase/SearchForRoomsUseCase.dart';
+import 'package:chat/Services/Exception/FirebaseFireStoreDatabaseTimeoutException.dart';
+import 'package:chat/Services/Exception/FirebaseFirestoreDatabaseException.dart';
+import 'package:chat/ViewModels/Room/Room.dart';
+import 'package:chat/Services/SearchForRoomsUseCase.dart';
 import 'package:chat/Presentation/UI/Search/SearchNavigator.dart';
 
 class SearchViewModel extends BaseViewModel<SearchNavigator>{

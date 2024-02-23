@@ -1,10 +1,10 @@
 import 'package:chat/Core/Base/BaseViewModel.dart';
-import 'package:chat/Domain/Exception/FirebaseAuthException.dart';
-import 'package:chat/Domain/Exception/FirebaseAuthTimeoutException.dart';
-import 'package:chat/Domain/Models/Room/Room.dart';
-import 'package:chat/Domain/Models/User/Users.dart';
-import 'package:chat/Domain/UseCase/GetUsersListUseCase.dart';
-import 'package:chat/Domain/UseCase/UpdateRoomUseCase.dart';
+import 'package:chat/Services/Exception/FirebaseAuthException.dart';
+import 'package:chat/Services/Exception/FirebaseAuthTimeoutException.dart';
+import 'package:chat/ViewModels/Room/Room.dart';
+import 'package:chat/ViewModels/User/Users.dart';
+import 'package:chat/Services/GetUsersListUseCase.dart';
+import 'package:chat/Services/UpdateRoomUseCase.dart';
 import 'package:chat/Presentation/Models/RoomCategory.dart';
 import 'package:chat/Presentation/Models/RoomType.dart';
 import 'package:chat/Presentation/UI/UpdateRoomDetails/UpdateRoomDetailsNavigator.dart';

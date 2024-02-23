@@ -1,8 +1,8 @@
 import 'package:chat/Core/Base/BaseState.dart';
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Domain/Models/Room/Room.dart';
-import 'package:chat/Domain/Models/User/Users.dart';
-import 'package:chat/Domain/UseCase/GetUsersListUseCase.dart';
+import 'package:chat/ViewModels/Room/Room.dart';
+import 'package:chat/ViewModels/User/Users.dart';
+import 'package:chat/Services/GetUsersListUseCase.dart';
 import 'package:chat/Presentation/DI/di.dart';
 import 'package:chat/Presentation/Models/RoomCategory.dart';
 import 'package:chat/Presentation/Models/RoomType.dart';

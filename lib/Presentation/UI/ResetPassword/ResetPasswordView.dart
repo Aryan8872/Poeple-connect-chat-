@@ -1,6 +1,6 @@
 import 'package:chat/Core/Base/BaseState.dart';
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Domain/UseCase/ResetPasswordUseCase.dart';
+import 'package:chat/Services/ResetPasswordUseCase.dart';
 import 'package:chat/Presentation/DI/di.dart';
 import 'package:chat/Presentation/UI/GlobalWidgets/CustomTextFormField.dart';
 import 'package:chat/Presentation/UI/ResetPassword/ResetPasswordNavigator.dart';

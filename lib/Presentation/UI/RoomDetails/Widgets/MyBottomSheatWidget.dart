@@ -1,5 +1,5 @@
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Domain/Models/User/Users.dart';
+import 'package:chat/ViewModels/User/Users.dart';
 import 'package:chat/Presentation/UI/RoomDetails/Widgets/WhiteSpaceWidget.dart';
 import 'package:flutter/material.dart';
 

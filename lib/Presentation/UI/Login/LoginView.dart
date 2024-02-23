@@ -1,7 +1,7 @@
 import 'package:chat/Core/Base/BaseState.dart';
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Domain/UseCase/LoginAccountUseCase.dart';
-import 'package:chat/Domain/UseCase/SignInWithGoogleUseCase.dart';
+import 'package:chat/Services/LoginAccountUseCase.dart';
+import 'package:chat/Services/SignInWithGoogleUseCase.dart';
 import 'package:chat/Presentation/DI/di.dart';
 import 'package:chat/Presentation/UI/GlobalWidgets/CustomTextFormField.dart';
 import 'package:chat/Presentation/UI/Home/HomeView.dart';

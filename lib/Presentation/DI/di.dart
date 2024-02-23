@@ -9,14 +9,14 @@ import 'package:chat/Data/Firebase/MessagesDatabase.dart';
 import 'package:chat/Data/Firebase/RoomUsersDataBase.dart';
 import 'package:chat/Data/Firebase/RoomsDatabase.dart';
 import 'package:chat/Data/Firebase/UsersDataBase.dart';
-import 'package:chat/Data/Repository/FirebaseAuthRepositoryImpl.dart';
-import 'package:chat/Data/Repository/MessagesRepositoryImpl.dart';
-import 'package:chat/Data/Repository/RoomDataRepositoryImpl.dart';
-import 'package:chat/Data/Repository/UsersRepositoryImpl.dart';
-import 'package:chat/Domain/Repository/FirebaseAuthContract.dart';
-import 'package:chat/Domain/Repository/MessagesRepositoryContract.dart';
-import 'package:chat/Domain/Repository/RoomsRepositoryContract.dart';
-import 'package:chat/Domain/Repository/UsersRepositoryContract.dart';
+import 'package:chat/Repository/FirebaseAuthRepositoryImpl.dart';
+import 'package:chat/Repository/MessagesRepositoryImpl.dart';
+import 'package:chat/Repository/RoomDataRepositoryImpl.dart';
+import 'package:chat/Repository/UsersRepositoryImpl.dart';
+import 'package:chat/Repository/Repository interface/FirebaseAuthContract.dart';
+import 'package:chat/Repository/Repository interface/MessagesRepositoryContract.dart';
+import 'package:chat/Repository/Repository interface/RoomsRepositoryContract.dart';
+import 'package:chat/Repository/Repository interface/UsersRepositoryContract.dart';
 
 // get error handler
 ErrorHandler getErrorHandler() {

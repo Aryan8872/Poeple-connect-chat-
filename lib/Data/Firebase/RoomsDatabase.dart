@@ -1,4 +1,4 @@
-import 'package:chat/Data/Models/Room/RoomDTO.dart';
+import 'package:chat/Models/Room/RoomDTO.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class RoomsDatabase {

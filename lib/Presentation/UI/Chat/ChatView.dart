@@ -1,11 +1,11 @@
 import 'package:chat/Core/Base/BaseState.dart';
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Data/Models/Message/MessageDTO.dart';
-import 'package:chat/Domain/Models/Room/Room.dart';
-import 'package:chat/Domain/UseCase/DeleteRoomUseCase.dart';
-import 'package:chat/Domain/UseCase/GetMessagesUseCase.dart';
-import 'package:chat/Domain/UseCase/RemoveUserFromRoomUseCase.dart';
-import 'package:chat/Domain/UseCase/SendMessageUseCase.dart';
+import 'package:chat/Models/Message/MessageDTO.dart';
+import 'package:chat/ViewModels/Room/Room.dart';
+import 'package:chat/Services/DeleteRoomUseCase.dart';
+import 'package:chat/Services/GetMessagesUseCase.dart';
+import 'package:chat/Services/RemoveUserFromRoomUseCase.dart';
+import 'package:chat/Services/SendMessageUseCase.dart';
 import 'package:chat/Presentation/DI/di.dart';
 import 'package:chat/Presentation/UI/Chat/ChatNavigator.dart';
 import 'package:chat/Presentation/UI/Chat/ChatViewModel.dart';

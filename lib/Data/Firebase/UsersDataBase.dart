@@ -1,4 +1,4 @@
-import 'package:chat/Data/Models/User/UserDTO.dart';
+import 'package:chat/Models/User/UserDTO.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class UsersDataBase{
