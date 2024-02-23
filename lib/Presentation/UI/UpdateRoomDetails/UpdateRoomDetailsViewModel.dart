@@ -5,8 +5,8 @@ import 'package:chat/ViewModels/Room/Room.dart';
 import 'package:chat/ViewModels/User/Users.dart';
 import 'package:chat/Services/GetUsersListUseCase.dart';
 import 'package:chat/Services/UpdateRoomUseCase.dart';
-import 'package:chat/Presentation/Models/RoomCategory.dart';
-import 'package:chat/Presentation/Models/RoomType.dart';
+import 'package:chat/ViewModels/Room//RoomCategory.dart';
+import 'package:chat/ViewModels/Room/RoomType.dart';
 import 'package:chat/Presentation/UI/UpdateRoomDetails/UpdateRoomDetailsNavigator.dart';
 import 'package:flutter/cupertino.dart';
 

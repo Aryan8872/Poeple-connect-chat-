@@ -1,5 +1,5 @@
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Presentation/Models/RoomCategory.dart';
+import 'package:chat/ViewModels/Room/RoomCategory.dart';
 import 'package:flutter/material.dart';
 
 class CategoryDropdownButtonWidget extends StatelessWidget {

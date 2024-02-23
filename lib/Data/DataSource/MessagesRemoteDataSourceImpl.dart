@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:chat/Data/Firebase/ErrorHandeler.dart';
 import 'package:chat/Data/Firebase/MessagesDatabase.dart';
-import 'package:chat/Data/Models/Message/MessageDTO.dart';
-import 'package:chat/Domain/Exception/FirebaseFireStoreDatabaseTimeoutException.dart';
-import 'package:chat/Domain/Exception/FirebaseFirestoreDatabaseException.dart';
-import 'package:chat/Domain/Repository/MessagesRepositoryContract.dart';
+import 'package:chat/Models/Message/MessageDTO.dart';
+import 'package:chat/Services/Exception/FirebaseFireStoreDatabaseTimeoutException.dart';
+import 'package:chat/Services/Exception/FirebaseFirestoreDatabaseException.dart';
+import 'package:chat/Repository/Repository interface/MessagesRepositoryContract.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class MessagesRemoteDataSourceImpl implements MessagesRemoteDataSource{

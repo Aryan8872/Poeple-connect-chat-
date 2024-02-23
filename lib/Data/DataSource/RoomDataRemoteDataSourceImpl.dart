@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:chat/Data/Firebase/ErrorHandeler.dart';
 import 'package:chat/Data/Firebase/RoomsDatabase.dart';
-import 'package:chat/Data/Models/Room/RoomDTO.dart';
-import 'package:chat/Domain/Exception/FirebaseFireStoreDatabaseTimeoutException.dart';
-import 'package:chat/Domain/Exception/FirebaseFirestoreDatabaseException.dart';
-import 'package:chat/Domain/Models/Room/Room.dart';
-import 'package:chat/Domain/Repository/RoomsRepositoryContract.dart';
+import 'package:chat/Models/Room/RoomDTO.dart';
+import 'package:chat/Services/Exception/FirebaseFireStoreDatabaseTimeoutException.dart';
+import 'package:chat/Services/Exception/FirebaseFirestoreDatabaseException.dart';
+import 'package:chat/ViewModels/Room/Room.dart';
+import 'package:chat/Repository/Repository interface/RoomsRepositoryContract.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class RoomDataRemoteDataSourceImpl implements RoomDataRemoteDataSource{

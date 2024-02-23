@@ -2,7 +2,7 @@ import 'package:chat/Core/Base/BaseNavigator.dart';
 import 'package:chat/Core/Base/BaseViewModel.dart';
 import 'package:chat/Core/Dialogs/DialogUtils.dart';
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Presentation/Providers/AppConfigProvider.dart';
+import './AppConfigProvider.dart';
 import 'package:elegant_notification/elegant_notification.dart';
 import 'package:elegant_notification/resources/arrays.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';

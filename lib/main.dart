@@ -1,5 +1,5 @@
 import 'package:chat/Core/Theme/MyTheme.dart';
-import 'package:chat/Presentation/Providers/AppConfigProvider.dart';
+import 'package:chat/Core/Base/AppConfigProvider.dart';
 import 'package:chat/Presentation/UI/Chat/ChatView.dart';
 import 'package:chat/Presentation/UI/Create%20Room/CreateRoomView.dart';
 import 'package:chat/Presentation/UI/Home/HomeView.dart';

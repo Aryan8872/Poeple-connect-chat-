@@ -4,8 +4,8 @@ import 'package:chat/Services/Exception/FirebaseAuthTimeoutException.dart';
 import 'package:chat/ViewModels/Room/Room.dart';
 import 'package:chat/ViewModels/User/Users.dart';
 import 'package:chat/Services/GetUsersListUseCase.dart';
-import 'package:chat/Presentation/Models/RoomCategory.dart';
-import 'package:chat/Presentation/Models/RoomType.dart';
+import 'package:chat/ViewModels/Room/RoomCategory.dart';
+import 'package:chat/ViewModels/Room/RoomType.dart';
 import 'package:chat/Presentation/UI/RoomDetails/RoomDetailsNavigator.dart';
 import 'package:flutter/services.dart';
 

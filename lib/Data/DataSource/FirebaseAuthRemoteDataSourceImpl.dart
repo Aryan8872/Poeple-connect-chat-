@@ -3,10 +3,10 @@ import 'dart:io';
 import 'package:chat/Data/Firebase/ErrorHandeler.dart';
 import 'package:chat/Data/Firebase/FirebaseAuth.dart';
 import 'package:chat/Data/Firebase/UsersDataBase.dart';
-import 'package:chat/Data/Models/User/UserDTO.dart';
-import 'package:chat/Domain/Exception/FirebaseAuthException.dart';
-import 'package:chat/Domain/Exception/FirebaseAuthTimeoutException.dart';
-import 'package:chat/Domain/Repository/FirebaseAuthContract.dart';
+import 'package:chat/Models/User/UserDTO.dart';
+import 'package:chat/Services/Exception/FirebaseAuthException.dart';
+import 'package:chat/Services/Exception/FirebaseAuthTimeoutException.dart';
+import 'package:chat/Repository/Repository interface/FirebaseAuthContract.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class FirebaseAuthRemoteDataSourceImpl implements FirebaseAuthRemoteDataSource {
