@@ -108,7 +108,7 @@ abstract class BaseState<T extends StatefulWidget, VM extends BaseViewModel>
           ),
         ),
       ),
-      notificationPosition: NotificationPosition.bottomCenter,
+      // notificationPosition: NotificationPosition.bottomCenter,
       toastDuration: const Duration(seconds: 2),
       progressIndicatorColor: Colors.transparent,
       progressIndicatorBackground: Colors.transparent,

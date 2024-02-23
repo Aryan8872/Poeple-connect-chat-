@@ -6,7 +6,7 @@ import 'package:chat/Models/User/UserDTO.dart';
 import 'package:chat/Services/Exception/FirebaseFireStoreDatabaseTimeoutException.dart';
 import 'package:chat/Services/Exception/FirebaseFirestoreDatabaseException.dart';
 import 'package:chat/ViewModels/User/Users.dart';
-import 'package:chat/Repository/Repository interface//UsersRepositoryContract.dart';
+import 'package:chat/Repository/Repository interface/UsersRepositoryContract.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class UsersFirebaseRemoteDataSourceImpl implements UsersFirebaseRemoteDataSource {
